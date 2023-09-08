@@ -1,4 +1,19 @@
 #container {
-    width: 960px;
-    height: 960px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 800px;
+    border: solid;
+    border-width: thin;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    border-style: solid;
+    border-width: thin;
 }
